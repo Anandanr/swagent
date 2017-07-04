@@ -16,6 +16,6 @@ class swagent {
     	package { 'swagent':
 		ensure		=> 'file',
             	source 		=> 'c:\SolarWinds-Agent.msi',
-            	install_options	=>  [ '/qb', {'TRANSFORMS' => 'C:\SolarWinds-Agent.mst'}], 
+            	install_options	=>  [ '/qn', {'TRANSFORMS' => 'C:\SolarWinds-Agent.mst'}], 
             	}	
 }
